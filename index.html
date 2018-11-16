@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystal Game</title>
+</head>
+
+<body>
+    <header>Nab Those Gnomes!!!</header>
+    <br>
+    <div class="instructions">
+        <p class="intro">Oh no! The gnomes have roamed so far from home! Help get those gnomes home!</p>
+        <hr>
+        <p class="intro">Not all gnomes are created equal. Nab a gnome to find out its numerical worth and bring back
+            enough to meet the market demand.</p>
+        <hr>
+        <p class="intro">If your nabbed gnomes exceed demand, you'll oversaturate the market and lose!</p>
+        <hr>
+        <p class="intro">Each round you play the value of each gnome and the market demand will change. Good luck!</p>
+    </div>
+    <div class="start">
+        <button type = "button" id = "button">Get Nabbin'!</button>
+    </div>
+    <div id="gnomes"></div>
+    <div id="marketvalue">Current Market Value:
+        <span id="currentvalue"></span>
+    </div>
+    <div id="wins-and-losses">
+        <p>Wins:
+            <span id="wins"></span></p>
+        <p>Losses:
+            <span id="losses"></span></p>
+    </div>
+    <div id="gnomes"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
