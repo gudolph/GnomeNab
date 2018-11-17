@@ -38,7 +38,7 @@ $(document).ready(function () {
 
             gnomeArray[j] = $("<img>");
             gnomeArray[j].addClass("gnome");
-            gnomeArray[j].attr("src", "../02-Homework/assets/images/Gnome.png");
+            gnomeArray[j].attr("src", "assets/images/Gnome.png");
             gnomeArray[j].attr("data-gnomeValue", worthArray[j])
 
             gnomeArray.push(gnomeArray[j]);
