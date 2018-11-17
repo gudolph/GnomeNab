@@ -15,22 +15,27 @@
     <br>
     <div class="instructions">
         <p class="intro">Oh no! The gnomes have roamed so far from home! Help get those gnomes home!</p>
-        <hr>
+        <hr class="intro">
         <p class="intro">Not all gnomes are created equal. Nab a gnome to find out its numerical worth and bring back
             enough to meet the market demand.</p>
-        <hr>
+        <hr class="intro">
         <p class="intro">If your nabbed gnomes exceed demand, you'll oversaturate the market and lose!</p>
-        <hr>
+        <hr class="intro">
         <p class="intro">Each round you play the value of each gnome and the market demand will change. Good luck!</p>
+        <span id="winner">You met market demand! Way to nab gnomes like a winner!</span>
+        <span id="loser">That's way too many gnomes you gnomeskull!</span>
     </div>
     <div class="start">
-        <button type = "button" id = "button">Get Nabbin'!</button>
+        <button type="button" id="button">Get Nabbin'!</button>
+    </div>
+    <div class="replay">
+        <button type="button" id="replay">Play again?</button>
     </div>
     <div id="gnomes">
     </div>
     <div id="marketvalue">
         <p>Current Market Value:
-        <span id="currentvalue"></span>
+            <span id="currentvalue"></span>
         </p>
         <p>Collected Gnome Value: <span id="gnomeValue"></span></p>
     </div>
@@ -40,6 +45,7 @@
         <p>Losses:
             <span id="losses"></span></p>
     </div>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
