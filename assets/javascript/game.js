@@ -8,6 +8,8 @@ $(document).ready(function () {
     $("#replay").hide();
     $("#winner").hide();
     $("#loser").hide();
+    $("#currentvalue").text("0");
+    $("#gnomeValue").text("0");
     // Create a for-loop to add random integers to the worthArray;
     $("#button").on("click", function () {
 
@@ -15,8 +17,6 @@ $(document).ready(function () {
         var worthArray = [];
         var gnomeArray = [];
         var counter = 0;
-        $("#currentvalue").text(targetValue);
-        $("#gnomeValue").text(counter);
 
         console.log(counter)
 
