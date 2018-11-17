@@ -17,7 +17,6 @@ $(document).ready(function () {
         var worthArray = [];
         var gnomeArray = [];
         var counter = 0;
-
         console.log(counter)
 
         for (var i = 0; i < 4; i++) {
@@ -81,9 +80,9 @@ $(document).ready(function () {
                 $("#loser").hide();
                 $(".intro").show();
                 $("#button").prop("disabled", false);
-                $("#gnomeValue").empty();
+                $("#gnomeValue").empty().text("0");
                 $("#gnomes").empty();
-                $("#currentvalue").empty();
+                $("#currentvalue").empty().text("0");
 
             });
         });
