@@ -64,6 +64,7 @@ $(document).ready(function () {
                 $("#loser").show();
                 losses++;
                 $("#losses").text(losses);
+                $("#gnomes").empty(gnomeArray);
             }
             if ((counter === targetValue) || (counter >= targetValue)) {
                 $(".intro").hide();
